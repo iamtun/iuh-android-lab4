@@ -87,7 +87,7 @@ public class ItemsAdapter extends BaseAdapter {
         });
 
         if(positionSelect == position) {
-            constraintLayout.setBackgroundColor(Color.BLUE);
+            constraintLayout.setBackgroundColor(Color.CYAN);
         } else {
             constraintLayout.setBackgroundColor(Color.WHITE);
         }

@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IUH.STUDY/K2N3_2022/android/lab4/app/src/main/res/layout/activity_custom_grid_view.xml" value="0.22864583333333333" />
         <entry key="..\:/IUH.STUDY/K2N3_2022/android/lab4/app/src/main/res/layout/activity_main.xml" value="0.259375" />
         <entry key="..\:/IUH.STUDY/K2N3_2022/android/lab4/app/src/main/res/layout/custom_list_view_activity.xml" value="0.264" />
+        <entry key="..\:/IUH.STUDY/K2N3_2022/android/lab4/app/src/main/res/layout/item_custom_grid_view.xml" value="0.536" />
         <entry key="..\:/IUH.STUDY/K2N3_2022/android/lab4/app/src/main/res/layout/item_custom_list_view.xml" value="0.4" />
       </map>
     </option>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="210dp"
+    android:layout_height="220dp">
+
+    <ImageView
+        android:id="@+id/imgImage"
+        android:layout_width="209dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtNameProduct"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgImage" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="82dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/app_name"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="4"
+        app:layout_constraintEnd_toEndOf="@+id/txtNameProduct"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNameProduct"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameProduct" />
+
+    <TextView
+        android:id="@+id/txtNumBuyer"
+        android:layout_width="34dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/txtNameProduct"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameProduct" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="116dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ratingBar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <TextView
+        android:id="@+id/txtDiscount"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/txtPrice"
+        app:layout_constraintEnd_toEndOf="@+id/txtNumBuyer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNumBuyer"
+        app:layout_constraintTop_toTopOf="@+id/txtPrice" />
+</androidx.constraintlayout.widget.ConstraintLayout>
